@@ -1,0 +1,62 @@
+body {
+  background-color: #b25169;
+}
+
+.divArea {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.divColumn {
+  background-color: #4d3b52;
+  width: 400px;
+  height: 550px;
+  margin: 20px;
+  color: white;
+  border-radius: 20px;
+}
+
+.price {
+  font-size: 40px;
+}
+
+.text {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+
+.title {
+  text-align: center;
+  align-items: center;
+}
+h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+ul li::marker {
+  color: red;
+}
+button {
+  margin-top: 20px;
+  margin-left: 25%;
+  background: transparent;
+  border: 2px red solid;
+  padding: 10px 60px;
+  border-radius: 8px;
+  color: white;
+  transition: 0.5s;
+}
+button:hover {
+  background-color: crimson;
+  cursor: pointer;
+}
